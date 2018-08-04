@@ -19,7 +19,7 @@ cd piratebox
 sudo mkdir -p  /opt
 sudo cp -rv  piratebox /opt
 cd /opt/piratebox
-cp importantfiles/interfaces /etc/network/interfaces
+cp interfaces /etc/network/interfaces
 sudo sed 's:DROOPY_USE_USER="no":DROOPY_USE_USER="yes":' -i  /opt/piratebox/conf/piratebox.conf
 sudo ln -s /opt/piratebox/init.d/piratebox /etc/init.d/piratebox
 sudo update-rc.d piratebox  defaults 
