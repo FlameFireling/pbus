@@ -1,1 +1,1 @@
-cp /etc/network/interfaces backupfiles/interfaces
+cp /etc/network/interfaces backup
