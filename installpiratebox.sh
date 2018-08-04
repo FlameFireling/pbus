@@ -1,5 +1,5 @@
 sudo apt-get update
-udo apt-get install minidlna
+sudo apt-get install minidlna
 sudo apt-get -y install lighttpd
 sudo /etc/init.d/lighttpd stop
 sudo update-rc.d lighttpd remove
@@ -30,4 +30,3 @@ sudo cp /etc/minidlna.conf /etc/minidlna.conf.bkp
 sudo cp /opt/piratebox/src/linux.example.minidlna.conf /etc/minidlna.conf
 sudo update-rc.d minidlna defaults
 sudo service minidlna start
-
